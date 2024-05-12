@@ -9,7 +9,7 @@ export default function CardProyecto() {
         return (
           <article
             key={project.title}
-            className="shadow-md p-5 bg-slate-100 flex flex-col lg:flex-row justify-center items-center my-9"
+            className="drop-shadow-lg p-8 bg-slate-100 flex flex-col lg:flex-row justify-center items-center mb-10"
           >
             <Image
               src={project.img}
@@ -39,7 +39,7 @@ export default function CardProyecto() {
                   </Link>
                 </div>
               </div>
-              <div className="text-gray-900 text-sm md:text-base">
+              <div className="text-gray-900 my-3 text-sm md:text-base">
                 {project.description}
               </div>
               <footer className="flex flex-row">
