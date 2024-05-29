@@ -17,15 +17,15 @@ export default function Experiencia() {
 
       {trabajos.map((trabajo) => {
         return (
-          <div key={trabajo.empresa}>
-            <h3 className="text-lg text-slate-900 font-semibold">
-              {trabajo.rol} -
-              <span className="text-slate-950 font-normal">
+          <div key={trabajo.empresa} className="mb-10">
+            <h3 className="text-lg text-slate-900 font-semibold ">
+              {trabajo.rol} 
+              <span className="text-slate-950 font-normal ml-2">
                 {" "}
                 {trabajo.empresa}
               </span>
             </h3>
-            <p className="text-gray-700 mb-2">
+            <p className="text-gray-700 mb-1">
               {trabajo.flechaInicio} - {trabajo.flechaFin}
             </p>
             <p className="text-gray-800 text-sm md:text-base">

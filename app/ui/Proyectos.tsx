@@ -5,7 +5,7 @@ export default function Proyectos() {
   return (
     <div
       id="proyectos"
-      className="sm:w-[450px] md:w-[600px] lg:w-[900px] xl:w-[900px]"
+      className="sm:w-[500px] md:w-[600px] lg:w-[900px] xl:w-[900px]"
     >
       <div className="flex items-center mb-5">
         <AcademicCapIcon className="w-6 h-6 mr-2" />

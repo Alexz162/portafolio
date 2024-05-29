@@ -6,7 +6,7 @@ import RedesSociales from "./ui/RedesSociales";
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center p-10 top-20">
+    <main className="flex flex-col items-center p-8 md:p-16 lg:p-20 top-20 ">
       <section className="flex justify-center items-center flex-col sm:w-[450px] md:w-[600px] lg:w-[900px] xl:w-[900px]">
         <h1
           className={`${baloo.className} text-center text-5xl md:text-6xl xl:text-8xl text-transparent bg-gradient-to-r from-[#8f6efe] to-[#5ab0ff] bg-clip-text mb-1 font-semibold`}

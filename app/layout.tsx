@@ -6,7 +6,7 @@ import { inter, roboto } from "./ui/fonts";
 
 
 export const metadata: Metadata = {
-  title: "alexcordova",
+  title: "Alexcordova",
   description: "Portafolio personal",
 };
 

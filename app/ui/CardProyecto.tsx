@@ -9,7 +9,7 @@ export default function CardProyecto() {
         return (
           <article
             key={project.title}
-            className="drop-shadow-lg p-8 bg-slate-100 flex flex-col lg:flex-row justify-center items-center mb-10"
+            className="drop-shadow-lg p-3 lg:p-8 bg-slate-50 rounded-md flex flex-col lg:flex-row justify-center items-center mb-10"
           >
             <Image
               src={project.img}

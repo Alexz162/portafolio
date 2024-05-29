@@ -16,13 +16,13 @@ export default function RedesSociales() {
     },
     {
       nombre: "github",
-      url: "https://www.linkedin.com/in/alex-cordova-huaracha-6a80aa1b3/",
+      url: "https://github.com/Alexz162",
       icon: "github",
     },
   ];
 
   return (
-    <div className="mb-16 flex flex-row">
+    <div className="mb-16 lg:mb-[150px] flex flex-row">
       {redes.map((red) => (
         <Link
           key={red.nombre}
@@ -34,8 +34,8 @@ export default function RedesSociales() {
             src={`${red.icon}.svg`}
             className="mt-2"
             alt=""
-            width={40}
-            height={40}
+            width={30}
+            height={30}
           />
         </Link>
       ))}
