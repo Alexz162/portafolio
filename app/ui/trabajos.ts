@@ -2,7 +2,7 @@ export const trabajos = [
   {
     rol: 'Full Stack Developer ',
     empresa: 'Exoap',
-    descripcion: 'Gracias a Programa de prácticas estudiantiles CEAP (Alianza del Pacífico).  Diseño de arquitectura de software, desarrollo frontend y backend, ReactJS, Redux, Python, Django y base de datos PostgreSQL. Control de versiones en GitHub.',
+    descripcion: 'Gracias a Programa de prácticas estudiantiles CEAP (Alianza del Pacífico).  Diseño de arquitectura de software, desarrollo frontend y backend para plataforma e-comerce, ReactJS, Vtex, Redux, TypeScript, Jquery, Csss, GraphQl, Python, Django, base de datos PostgreSQL y control de versiones en GitHub.',
     flechaInicio: 'Julio 2022',
     flechaFin: 'Diciembre 2022'
   },
@@ -16,8 +16,8 @@ export const trabajos = [
   {
     rol: 'Frelance ',
     empresa: '',
-    descripcion: 'Desarrollo de aplicaciones web con ReactJS, NextJS, redux, Tailwind, Google Cloud, NodeJS, expressJS. Base de datos MongoDB, Resolución de problemas y programación estructurada.',
+    descripcion: ' Desarrollo de aplicaciones web con ReactJS, Vtex, ReactNative, NextJS, redux, Tailwind, Google Cloud, NodeJS, expressJS. Base de datos MongoDB, Resolución de problemas y programación estructurada.',
     flechaInicio: 'Marzo 2022',
-    flechaFin: 'Ahora'
+    flechaFin: 'Marzo 2024'
   },
 ]
