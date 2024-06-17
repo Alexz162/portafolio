@@ -17,7 +17,7 @@ export const trabajos = [
     rol: 'Frelance ',
     empresa: '',
     descripcion: ' Desarrollo de aplicaciones web con ReactJS, Vtex, ReactNative, NextJS, redux, Tailwind, Google Cloud, NodeJS, expressJS. Base de datos MongoDB, Resolución de problemas y programación estructurada.',
-    flechaInicio: 'Marzo 2022',
+    flechaInicio: 'Marzo 2023',
     flechaFin: 'Marzo 2024'
   },
 ]
